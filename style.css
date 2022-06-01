@@ -1,0 +1,67 @@
+.cabeca{
+
+    margin-top: -21px;
+    background-color: rgba(0, 255, 255, 0.603);
+    position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+    
+    
+
+}
+
+.pe{
+
+    
+    background-color: rgba(0, 255, 255, 0.603);
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+ 
+
+}
+
+.h1Cabeca{
+    text-align: start;
+    position: relative;
+    top: 25px;
+    left: 5px;
+}
+.navPe{
+    padding-bottom: 10px;
+}
+
+.navCabeca{
+    text-align: end;
+    position: relative;
+    top: -30px;
+    right: 5px;
+}
+
+
+
+
+body{
+    background-image: url('assets/petpawns.png');
+}
+
+
+.meio{
+    border:4px dashed  rgba(0, 0, 255, 0.582);
+    background-color: rgba(240, 255, 255, 0.986);
+    font-family: cursive;
+    border-radius: 20px;
+    
+    
+    
+}
+
+
+.corpo{
+    background-color: azure;
+    margin: 0px;
+}
+
+
+

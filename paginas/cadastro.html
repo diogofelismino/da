@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../style.css">
+
+    <title>Cadastro</title>
+
+    
+
+</head>
+<body>
+
+    <div class="meio">
+    <header class="cabeca">
+        <h1 class="h1Cabeca">Concurso de Pets da Nota Control</h1>
+
+        <nav class="navCabeca">
+            <a href="../index.html">Homepage</a> -
+            <a href="cadastro.html">Inscreva seu Pet</a> -
+            <a href="concorrentes.html">Concorrentes</a>
+        </nav>
+
+        <hr>
+    </header>
+
+    <section id="Cadastro" style="text-align: center;">
+        <article>
+            <h2>Cadastre seu pet para concurso!</h2>
+
+            <p>
+            <label for="fname">Nome do Pet: </label>
+            <input type="text" placeholder="ex: Bolinha..."
+            id="fname" name="fname"> 
+            </p>
+
+            <p>
+            <label for="fdono">Nome do Dono: </label>
+            <input type="text" placeholder="ex: Fulano dos Santos..." id="fdono" name="fdono"> 
+            </p>
+
+            <p>
+            <label for="ftelefone">Telefone de contato: </label>
+            <input type="tel" placeholder="ex: 67-91234-1234"  pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}"id="ftelefone" name="ftelefone">
+            </p>
+
+            <p>
+                <label for="fdescricao">Descreva brevemente sobre seu pet!</label>
+                <br><br>
+
+                <textarea id="fdescricao" ></textarea>
+
+            </p>
+
+            <p>
+                <legend>O seu bichinho está com as vacinas em dia?</legend>
+
+                
+                <input id="ckSim" type="radio"
+                 value="ckSim">
+                <label for="ckSim">Sim, Está!</label>
+                <br>
+                <input type="radio" value="ckNao">
+                <label for="ckNao">Não, não está :(</label>
+
+
+                
+
+            </p>
+
+            <p>
+                <label for="file">Foto do seu bichinho</label>
+                <input type="file" width="30px"  >
+            </p>
+            
+            <input id="submit" type="submit"> 
+
+        </article>
+    </section>
+    <br>
+    <footer class="pe">
+        <hr>
+        <h3>Siga-nos nas redes sociais!</h3>
+
+        <nav class="navPe">
+            <a href="https://github.com/diogofelismino" target="_blank">Twitter</a> - 
+            <a href="https://github.com/diogofelismino" target="_blank">Instragram</a> - 
+            <a href="https://github.com/diogofelismino" target="_blank">Facebook</a>
+        </nav>
+    </footer>
+    </div>
+    
+</body>
+</html>
